@@ -69,17 +69,47 @@ h2 {
     padding-bottom: 10px;
 }
 
+h3 {
+    color: #1c4587;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
 p {
     margin-bottom: 15px;
 }
 
-ul {
-    list-style-position: inside;
-    margin-left: 20px;
+/* Profile specific styles */
+.profile-content {
+    padding: 20px 0;
 }
 
-li {
-    margin-bottom: 10px;
+.profile-title {
+    font-weight: bold;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.profile-description {
+    margin: 20px 0;
+}
+
+.professional-links {
+    margin-top: 30px;
+}
+
+.linkedin-link {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-link:hover {
+    background-color: #005885;
 }
 
 /* Footer styles */
