@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Fife Information</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Fife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1d4e89;
+            text-align: center;
+            border-bottom: 2px solid #1d4e89;
+            padding-bottom: 10px;
+        }
+        .profile-section {
+            background-color: #f0f7ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .nav-link {
+            display: block;
+            margin-bottom: 20px;
+            color: #1d4e89;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <div class="container">
+        <a href="index.html" class="nav-link">← Back to Home</a>
+        
         <h1>Contact Us</h1>
-        <nav class="main-nav">
-            <a href="index.html">Home</a>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="profile">
-            <h2>About the Author</h2>
-            <div class="profile-content">
-                <h3>Colin Wynd</h3>
-                <p class="profile-title">Payments Executive at Mastercard</p>
-                <p class="profile-description">Experienced payments executive with expertise in implementing large-scale payment systems processing trillions of dollars. Based in the New York City Metropolitan Area with strong connections to Fife, Scotland.</p>
-                <p class="additional-info">Passionate about connecting Scottish heritage with modern financial technology.</p>
-                <div class="professional-links">
-                    <a href="https://www.linkedin.com/in/colinwynd/" class="linkedin-link" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
-                </div>
-            </div>
-        </section>
 
-        <section id="contact-form">
-            <h2>Get in Touch</h2>
-            <p>Interested in learning more about Fife or have questions? Feel free to connect via LinkedIn.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 - Kingdom of Fife Information</p>
-    </footer>
+        <div class="profile-section">
+            <h2>Colin Wynd</h2>
+            <p>Website Curator</p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/colinwynd">LinkedIn</a></p>
+            <p>I'm passionate about sharing the rich history and culture of Fife with the world. Feel free to reach out for any questions or collaboration opportunities.</p>
+        </div>
+    </div>
 </body>
 </html>
